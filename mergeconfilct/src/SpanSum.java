@@ -16,6 +16,13 @@ public static void main(String[] args)
 	sum=spanSum(array);
 	System.out.println(sum);
 }
+private static void add()
+{
+	int a=5;
+	int b=10;
+	int c=a+b;
+	System.out.println(c);
+}
 private static int spanSum(int[] array) {
 	int sum=0;
 	for(int i=1;i<array.length-1;i++)
