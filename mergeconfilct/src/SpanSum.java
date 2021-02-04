@@ -18,10 +18,10 @@ public static void main(String[] args)
 }
 private static void add()
 {
-	int a=5;
-	int b=10;
-	int c=a+b;
-	System.out.println(c);
+	int i1=5;
+	int i2=10;
+	int i3=i1*i2;
+	System.out.println(i3);
 }
 private static int spanSum(int[] array) {
 	int sum=0;
