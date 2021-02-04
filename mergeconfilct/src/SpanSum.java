@@ -22,6 +22,7 @@ private static int spanSum(int[] array) {
 	{
 	sum=sum+array[i];	
 	}
+	System.out.println("returning sum value");
 	return sum;
 }
 }
